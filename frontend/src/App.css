@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ticket-summary-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.mint-ticket-button {
+  margin-top: 1.5rem;
+  align-self: center;
+}
+
+.bg-flight {
+  background: linear-gradient(to bottom, #87ceeb, #ffffff);
+  background-image: url("/assets/sky-clouds.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-train {
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+  background-image: url("/assets/train-track.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-bus {
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  background-image: url("/assets/highway-lights.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
