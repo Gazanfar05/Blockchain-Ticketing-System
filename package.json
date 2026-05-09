@@ -1,5 +1,8 @@
 {
   "name": "hardhat-project",
+  "scripts": {
+    "build": "npm --prefix frontend run build"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^6.0.0",
     "autoprefixer": "^10.4.21",
